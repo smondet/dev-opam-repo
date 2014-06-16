@@ -1,0 +1,13 @@
+opam-version: "1"
+maintainer: "seb@mondet.org"
+homepage: ""
+ocaml-version: [ >= "4.01.0" ]
+build: [
+  ["./please.sh" "build"]
+  ["./please.sh" "install" prefix ]
+]
+remove: [
+  ["./please.sh" "uninstall" prefix ]
+]
+depends: [ "ocp-build" "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml"  ]
+
