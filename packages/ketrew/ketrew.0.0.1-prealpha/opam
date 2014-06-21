@@ -9,5 +9,5 @@ build: [
 remove: [
   ["./please.sh" "uninstall" prefix ]
 ]
-depends: [ "ocp-build" "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml"  ]
+depends: [ "ocp-build" "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml" "dbm"  ]
 
