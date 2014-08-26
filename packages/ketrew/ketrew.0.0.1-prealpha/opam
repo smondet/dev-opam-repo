@@ -1,6 +1,6 @@
 opam-version: "1"
 maintainer: "seb@mondet.org"
-homepage: ""
+homepage: "http://hammerlab.github.io/ketrew/"
 ocaml-version: [ >= "4.01.0" ]
 build: [
   ["./please.sh" "build"]
@@ -9,5 +9,5 @@ build: [
 remove: [
   ["./please.sh" "uninstall" prefix ]
 ]
-depends: [ "ocp-build" "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml" "dbm"  ]
+depends: [ "ocp-build" "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml" "dbm" "cohttp" "lwt" "ssl" "conduit"  ]
 
