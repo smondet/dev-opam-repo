@@ -9,5 +9,5 @@ build: [
 remove: [
   ["./please.sh" "uninstall" prefix ]
 ]
-depends: [ "ocp-build" "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml" "dbm" "cohttp" "lwt" "ssl" "conduit"  ]
+depends: [ "ocp-build" {= "1.99.6-beta" } "ocamlfind" "sosa" "nonstd" "docout" "pvem" "pvem_lwt_unix" "cmdliner" "atdgen" "atd" "yojson" "uri" "toml" "dbm" "cohttp" "lwt" "ssl" "conduit"  ]
 
