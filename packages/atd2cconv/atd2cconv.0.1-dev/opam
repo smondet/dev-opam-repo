@@ -1,0 +1,9 @@
+opam-version: "1"
+maintainer: "seb@mondet.org"
+homepage: "http://github.com/smondet/atd2cconv/"
+ocaml-version: [ >= "4.01.0" ]
+build: [
+  [make]
+]
+depends: [ "ocamlfind" "nonstd" "smart-print" "atd"  ]
+

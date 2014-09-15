@@ -1,0 +1,16 @@
+lib: [
+  "META"
+  "?_build/lib-atd2cconv/atd2cconv.a"
+  "?_build/lib-atd2cconv/atd2cconv.cma"
+  "?_build/lib-atd2cconv/atd2cconv.cmxa"
+  "?_build/lib-atd2cconv/atd2cconv.cmxs"
+  "?_build/lib-atd2cconv/atd2cconv.cmi"
+  "?_build/lib-atd2cconv/atd2cconv.cmti"
+  "?_build/lib-atd2cconv/atd2cconv.mli"
+  "?_build/lib-atd2cconv/atd2cconv.cmx"
+]
+bin: [
+  "?_build/bin-atd2cconv/atd2cconv.byte" {"atd2cconv"}
+  "?_build/bin-atd2cconv/atd2cconv.native" {"atd2cconv"}
+  "?_build/bin-atd2cconv/atd2cconv.js" {"atd2cconv"}
+]
