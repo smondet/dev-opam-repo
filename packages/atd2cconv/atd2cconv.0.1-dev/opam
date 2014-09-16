@@ -5,5 +5,5 @@ ocaml-version: [ >= "4.01.0" ]
 build: [
   [make]
 ]
-depends: [ "ocamlfind" "nonstd" "smart-print" "atd"  ]
+depends: [ "dumpast" "ocamlfind" "nonstd" "smart-print" "atd"  ]
 
