@@ -3,7 +3,8 @@ maintainer: "seb@mondet.org"
 homepage: "http://github.com/smondet/atd2cconv/"
 ocaml-version: [ >= "4.01.0" ]
 build: [
-  [make]
+  [make "-f" "Makefile-ocamlbuild"]
+  [make "-f" "Makefile-ocamlbuild" "install" "BINDIR=%{bindir}%"] 
 ]
-depends: [ "dumpast" "ocamlfind" "nonstd" "smart-print" "atd"  ]
+depends: [ "ocamlfind" "nonstd" "smart-print" "atd"  ]
 
